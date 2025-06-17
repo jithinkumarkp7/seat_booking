@@ -1,9 +1,10 @@
-import Home from "./pages/Home";
+
+import SearchInput from "./pages/SearchInput";
 
 function App() {
   return (
-    <div className="min-h-screen flex justify-center w-full bg-[#fafafa]">
-      <Home />
+    <div className="min-h-screen mt-5 flex justify-center w-full bg-[#fafafa]">
+      <SearchInput />
     </div>
   );
 }
